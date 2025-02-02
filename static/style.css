@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#btn{
+    margin: 25px;
+    padding: 10px 10px;
+    background-color: #4cafac;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+}
+
+#inp{
+    margin: 25px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #8c8c8c;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

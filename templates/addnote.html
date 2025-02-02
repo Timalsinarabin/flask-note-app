@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block body %}
+    <h1>Add a note: </h1>
+    <form id="form" action="/addnote" method="post">
+        <input id="inp" type="text" name="notes" required>
+        <button id="btn" type="submit">ADD</button>
+    </form>
+{% endblock %}

@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block body %}
+    <form id="form" action="/delete" method="post">
+        <h2>Enter note id to delete:</h2> <input id="inp" type="number" name="id">
+        <button id="btn" type="submit">Delete</button>
+    </form>
+{% endblock %}
